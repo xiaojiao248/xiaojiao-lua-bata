@@ -1,0 +1,33 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+local Window = OrionLib:MakeWindow({Name = "小交", HidePremium = false, SaveConfig = false, ConfigFolder = "小交248"})
+
+local Tab = Window:MakeTab({
+	Name = "不完全通用功能",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--分类
+
+Tab:AddButton({
+	Name = "飞行",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+  	end    
+})
+
+--按钮
+--我们在试一下
+
+local Tab = Window:MakeTab({
+	Name = "巴掌模拟器",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "点击使用",
+	Callback = function()
+    loadstring(game:HttpGet("https://github.com/xiaojiao248/roblox-bazhangmoniqi/blob/1d0af97b1c7322c7043ca3f8802c92ea851e0d56/%E5%B7%B4%E6%8E%8C%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%B0%8F%E4%BA%A4%E6%B1%89%E5%8C%96.lua"))()
+  	end    
+})
